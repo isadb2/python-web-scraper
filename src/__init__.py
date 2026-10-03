@@ -1,0 +1,1 @@
+"""AI Freelance Scraper package."""

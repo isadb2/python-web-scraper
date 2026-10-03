@@ -1,0 +1,17 @@
+usage: cli.py [-h] [--pages PAGES | --all] [--delay DELAY]
+              [--output-dir OUTPUT_DIR] [--no-xlsx]
+              [--max-details MAX_DETAILS] [--verbose]
+
+Scrape the Books to Scrape practice catalog.
+
+options:
+  -h, --help            show this help message and exit
+  --pages PAGES         Number of catalog pages to scrape (default: 3).
+  --all                 Follow pagination until the catalog ends.
+  --delay DELAY         Seconds between requests (default: 0.8).
+  --output-dir OUTPUT_DIR
+                        Directory for CSV/XLSX output.
+  --no-xlsx             Only write CSV output.
+  --max-details MAX_DETAILS
+                        Optional cap on detail-page requests.
+  --verbose             Enable verbose logging.
